@@ -4,21 +4,25 @@
     let operacao = 73;
     localStorage.setItem("1", 73);
 
-    // Multiplicação
-    operacao *= 77;
-    localStorage.setItem("3", 77);
-
-    // Divisão
-    operacao /= 59;
-    localStorage.setItem("5", 59);
+    
 
     // Soma
     operacao += 99;
     localStorage.setItem("2", 99);
 
+    // Multiplicação
+    operacao *= 77;
+    localStorage.setItem("3", 77);
+
     // Subtração
     operacao -= 81;
     localStorage.setItem("4", 81);
+
+    // Divisão
+    operacao /= 59;
+    localStorage.setItem("5", 59);
+
+
 
     // Apresentação
     let resultado = (((parseInt(localStorage.getItem("1")) + parseInt(localStorage.getItem("2"))) * parseInt(localStorage.getItem("3"))) - parseInt(localStorage.getItem("4"))) / parseInt(localStorage.getItem("5"));
